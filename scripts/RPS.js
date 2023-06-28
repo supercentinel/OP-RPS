@@ -86,12 +86,14 @@ function game(rounds) {
 
     for(let i = 0; i < rounds; i++) {
         let playerChoice = prompt("Choose!")
+        playerChoice = capitalize(playerChoice)
+
         result = RockPaperScissors(playerChoice, getComputerChoice())
         console.log(result)
 
         if (result.search("Win") != -1) {
             playerw += 1
-        } else if (result.search("Lose")) {
+        } else if (result.search("Lose") != -1) {
             compw += 1
         }
     }

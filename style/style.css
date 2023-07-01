@@ -1,0 +1,53 @@
+html {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Helvetica;
+
+}
+
+.main_header {
+    text-align: center;
+}
+
+#score {
+    text-align: center;
+}
+
+.playersScore {
+    display: flex;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+.playersScore div {
+    margin-top: 0px;
+    flex: 1;
+}
+
+.playersScore div h4 {
+    margin-top: 0%;
+}
+
+.playersScore div p {
+    font-size: 250%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#messageBar {
+    text-align: center;
+
+}
+
+.action_buttons {
+    padding-top: 2.5%;
+    display: flex;
+}
+
+.action_buttons * {
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    flex: 1;
+}
